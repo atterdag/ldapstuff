@@ -1,0 +1,20 @@
+dn: cn=Schema
+changetype: modify
+delete: objectclasses
+objectclasses: ( examplePerson-oid )
+
+dn: cn=schema
+changetype: modify
+delete: attributetypes
+attributetypes: ( favoriteColor-oid )
+-
+delete: ibmattributetypes
+ibmattributetypes: ( favoriteColor-oid )
+
+dn: cn=schema
+changetype: modify
+delete: attributetypes
+attributetypes: ( preferredSwallow-oid )
+-
+delete: ibmattributetypes
+ibmattributetypes: ( preferredSwallow-oid )
